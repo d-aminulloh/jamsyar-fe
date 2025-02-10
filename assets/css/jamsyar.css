@@ -10837,7 +10837,7 @@ ul {
 .insurance-page-two .services-two__single:hover {
   border: 1px solid transparent;
   /* border-bottom: 3px solid var(--insur-primary); */
-  border-bottom: 3px solid #9acf1e;
+  border-bottom: 3px solid #1c74e9;
   background-color: rgb(255, 255, 255);
   box-shadow: 0px 5px 20px 0px rgba(0, 0, 0, 0.07), inset 0px -3px 0px 0px rgba(12, 224, 255, 0.004);
 }
