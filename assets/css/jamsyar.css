@@ -9657,7 +9657,7 @@ ul {
   transition: all 500ms ease;
   display: block;
   background: none;
-  padding: 7px 20px 7px;
+  padding: 7px 28px 7px 20px;
   border-radius: var(--insur-bdr-radius);
   font-weight: 500;
 }
@@ -9909,6 +9909,12 @@ ul {
   letter-spacing: var(--insur-letter-spacing);
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+h4.product-details_subtitle{
+  font-weight: 700;
+  padding-top: 40px;
+  font-size: 24px;
 }
 
 .news-details__bottom {
@@ -19789,6 +19795,7 @@ body.boxed-wrapper {
   z-index: 1;
   background-color: var(--insur-black);
   border-radius: var(--insur-bdr-radius);
+  margin-top: 30px;
 }
 
 .insurance-details__need-help-bg {
@@ -19808,7 +19815,8 @@ body.boxed-wrapper {
 .insurance-details__need-help-icon {
   height: 85px;
   width: 85px;
-  background-color: var(--insur-primary);
+  /* background-color: var(--insur-primary); */
+  background-color: #015fc9;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -19824,9 +19832,9 @@ body.boxed-wrapper {
   transition: all 500ms ease;
 }
 
-.insurance-details__need-help-icon:hover {
+/* .insurance-details__need-help-icon:hover {
   background-color: var(--insur-white);
-}
+} */
 
 .insurance-details__need-help-icon span {
   font-size: 37px;
@@ -19845,6 +19853,9 @@ body.boxed-wrapper {
   line-height: 34px;
   font-weight: 700;
   letter-spacing: -0.04em;
+}
+h2.insurance-details__need-help-title span{
+  font-size: 20px;
 }
 
 .insurance-details__need-help-contact {
@@ -20022,6 +20033,7 @@ body.boxed-wrapper {
 .insurance-details__opportunities-list {
   position: relative;
   display: block;
+  padding-top: 10px;
 }
 
 .insurance-details__opportunities-list li {
@@ -20035,7 +20047,7 @@ body.boxed-wrapper {
 }
 
 .insurance-details__opportunities-list li .icon {
-  position: relative;
+  position: absolute;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20053,15 +20065,15 @@ body.boxed-wrapper {
 }
 
 .insurance-details__opportunities-list li .text {
-  margin-left: 15px;
+  margin-left: 30px;
 }
 
 .insurance-details__opportunities-list li .text p {
   font-size: 18px;
-  font-weight: 500;
+  font-weight: normal;
   letter-spacing: var(--insur-letter-spacing);
   line-height: 28px;
-  color: var(--insur-black);
+  color: var(--insur-gray);
 }
 
 .insurance-details__points {
