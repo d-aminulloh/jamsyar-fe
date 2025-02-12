@@ -2778,10 +2778,10 @@ ul {
   box-shadow: none !important;
 }
 
-.no-boxshadow .feature-one__icon{
+/* .no-boxshadow .feature-one__icon{
   background-color: #EEEEEE !important;
   background-image: unset !important;
-}
+} */
 
 .feature-home-produk{
   z-index: 2;
@@ -2870,11 +2870,11 @@ ul {
   -webkit-transform: translate(-50%, 0%);
 }
 
-.feature-one__single:hover .feature-one__icon {
+/* .feature-one__single:hover .feature-one__icon {
   background-image: -moz-linear-gradient(0deg, rgb(12, 224, 255) 0%, rgb(1, 95, 201) 100%);
   background-image: -webkit-linear-gradient(0deg, rgb(12, 224, 255) 0%, rgb(1, 95, 201) 100%);
   background-image: -ms-linear-gradient(0deg, rgb(12, 224, 255) 0%, rgb(1, 95, 201) 100%);
-}
+} */
 
 .feature-one__icon span {
   font-size: 65px;
@@ -34581,3 +34581,116 @@ CUSTOM
   text-transform: uppercase;
  }
   
+
+/* ====================================
+ICON PRODUCT
+==================================== */
+.icon-product-jamsyar{
+  background-size: inherit;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* normal */
+.icon-product-kur{
+  background-image: url(../images/icon/icon-product/kur.svg);
+}
+.icon-product-umum{
+  background-image: url(../images/icon/icon-product/umum.svg);
+}
+.icon-product-flpp{
+  background-image: url(../images/icon/icon-product/flpp.svg);
+}
+.icon-product-financing{
+  background-image: url(../images/icon/icon-product/financing.svg);
+}
+.icon-product-multiguna{
+  background-image: url(../images/icon/icon-product/multiguna.svg);
+}
+.icon-product-mikro{
+  background-image: url(../images/icon/icon-product/mikro.svg);
+}
+.icon-product-jasa{
+  background-image: url(../images/icon/icon-product/jasa.svg);
+}
+.icon-product-barang{
+  background-image: url(../images/icon/icon-product/barang.svg);
+}
+.icon-product-kontra{
+  background-image: url(../images/icon/icon-product/garansi.svg);
+}
+.icon-product-surety{
+  background-image: url(../images/icon/icon-product/surety.svg);
+}
+.icon-product-custom{
+  background-image: url(../images/icon/icon-product/custom.svg);
+}
+
+/* White */
+.icon-product-kur_white{
+  background-image: url(../images/icon/icon-product/kur-white.svg);
+}
+.icon-product-umum_white{
+  background-image: url(../images/icon/icon-product/umum-white.svg);
+}
+.icon-product-flpp_white{
+  background-image: url(../images/icon/icon-product/flpp-white.svg);
+}
+.icon-product-financing_white{
+  background-image: url(../images/icon/icon-product/financing-white.svg);
+}
+.icon-product-multiguna_white{
+  background-image: url(../images/icon/icon-product/multiguna-white.svg);
+}
+.icon-product-mikro_white{
+  background-image: url(../images/icon/icon-product/mikro-white.svg);
+}
+.icon-product-jasa_white{
+  background-image: url(../images/icon/icon-product/jasa-white.svg);
+}
+.icon-product-barang_white{
+  background-image: url(../images/icon/icon-product/barang-white.svg);
+}
+.icon-product-kontra_white{
+  background-image: url(../images/icon/icon-product/garansi-white.svg);
+}
+.icon-product-surety_white{
+  background-image: url(../images/icon/icon-product/surety-white.svg);
+}
+.icon-product-custom_white{
+  background-image: url(../images/icon/icon-product/custom-white.svg);
+}
+
+/* grey */
+.icon-product-kur_grey{
+  background-image: url(../images/icon/icon-product/kur-grey.svg);
+}
+.icon-product-umum_grey{
+  background-image: url(../images/icon/icon-product/umum-grey.svg);
+}
+.icon-product-flpp_grey{
+  background-image: url(../images/icon/icon-product/flpp-grey.svg);
+}
+.icon-product-financing_grey{
+  background-image: url(../images/icon/icon-product/financing-grey.svg);
+}
+.icon-product-multiguna_grey{
+  background-image: url(../images/icon/icon-product/multiguna-grey.svg);
+}
+.icon-product-mikro_grey{
+  background-image: url(../images/icon/icon-product/mikro-grey.svg);
+}
+.icon-product-jasa_grey{
+  background-image: url(../images/icon/icon-product/jasa-grey.svg);
+}
+.icon-product-barang_grey{
+  background-image: url(../images/icon/icon-product/barang-grey.svg);
+}
+.icon-product-kontra_grey{
+  background-image: url(../images/icon/icon-product/garansi-grey.svg);
+}
+.icon-product-surety_grey{
+  background-image: url(../images/icon/icon-product/surety-grey.svg);
+}
+.icon-product-custom_grey{
+  background-image: url(../images/icon/icon-product/custom-grey.svg);
+}
