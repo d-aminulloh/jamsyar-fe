@@ -6234,7 +6234,7 @@ ul {
   display: block;
   border-radius: 30px;
   background-color: rgb(255, 255, 255);
-  box-shadow: inset 0px 0px 18px 0px rgba(0, 0, 0, 0.2);
+  /* box-shadow: inset 0px 0px 18px 0px rgba(0, 0, 0, 0.2); */
   padding: 15px;
   z-index: 1;
 }
@@ -10206,7 +10206,7 @@ h4.product-details_subtitle{
 .contact-page {
   position: relative;
   display: block;
-  padding: 120px 0 120px;
+  padding: 0px 0 120px;
 }
 
 .contact-page__left {
@@ -34580,7 +34580,31 @@ CUSTOM
   font-weight: 300;
   text-transform: uppercase;
  }
-  
+.check-number-sertifikat{
+  padding-top: 40px;
+}
+.check-number-sertifikat form .comment-form__input-box p{
+  font-weight: 700;
+  color: #000;
+  padding: 0 8px 8px;
+}
+.check-number-sertifikat form .comment-form__input-box span{
+  padding-left: 8px;
+  color: #EC3B3B;
+  font-style: italic;
+  font-size: 12px;
+}
+img.img-prosedur-pengaduan{
+  width: 100%;
+}
+a.link-description{
+  text-decoration: underline;
+  color: #015fc9;
+}
+.cover-kontak-pengaduan{
+  padding-bottom: 60px !important;
+}
+
 
 /* ====================================
 ICON PRODUCT
