@@ -34604,6 +34604,29 @@ a.link-description{
 .cover-kontak-pengaduan{
   padding-bottom: 60px !important;
 }
+.sidebar-pusat{
+  padding: 60px 0 0;
+}
+.sidebar-pusat h2{
+  font-size: 40px;
+}
+.sidebar-pusat p{
+  font-size: 18px;
+}
+.service-one__content p{
+  font-size: 16px;
+}
+.service-one__content a,
+.sidebar-pusat a{
+  text-decoration: underline;
+  color: #015fc9;
+}
+.sidebar-pusat .service-one__title:before {
+    top: -28px;
+}
+.section-kantor{
+  padding: 60px 0 0;
+}
 
 
 /* ====================================
