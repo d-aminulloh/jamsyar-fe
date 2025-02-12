@@ -10324,7 +10324,7 @@ h4.product-details_subtitle{
   border: none;
   height: 420px;
   width: 100%;
-  mix-blend-mode: luminosity;
+  /* mix-blend-mode: luminosity; */
 }
 
 /*--------------------------------------------------------------
