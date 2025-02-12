@@ -9047,7 +9047,7 @@ ul {
   top: 0;
   right: 0;
   bottom: 0;
-  width: 100%;
+  width: 100% !important;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -19725,18 +19725,23 @@ body.boxed-wrapper {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 51px;
+  /* width: 51px;
   height: 51px;
-  background-color: var(--insur-primary);
+  background-color: var(--insur-primary); */
   border-radius: 50%;
   margin: 0 auto 5px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
-.insurance-details__download-icon:hover {
+/* .insurance-details__download-icon:hover {
   background-color: var(--insur-black);
-}
+} */
+ .report-download img{
+  width: 280px;
+  height: 398px;
+  object-fit: cover;
+ }
 
 .insurance-details__download-icon span {
   position: relative;
@@ -28542,6 +28547,11 @@ ul li ul .is-new-menu > a > span::after {
   .main-menu-five .mobile-nav__toggler {
     padding: 32px 0;
   }
+  .report-download img {
+    width: 130px;
+    height: 180px;
+    object-fit: cover;
+  }
 }
 /*--------------------------------------------------------------
 # Update 10/02/2023 Main Slider All Responsice Css
@@ -28575,6 +28585,11 @@ ul li ul .is-new-menu > a > span::after {
   .main-slider-five__nav .swiper-button-prev {
     margin-right: 0;
     margin-bottom: 10px;
+  }
+  .report-download img {
+    width: 200px;
+    height: 284px;
+    object-fit: cover;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -34528,3 +34543,41 @@ CUSTOM
 .product-page-padding{
   padding: 0px 0 90px !important;
 }
+/* .sidebar-performance li a{
+  padding-left: 50px !important;
+}
+.sidebar-performance li a span.fa-angle-double-left{
+  right: unset;
+  left: 20px;
+} */
+ .list-penghargaan{
+  border: 0;
+ }
+ .list-penghargaan .insurance-details__download-icon{
+  margin: 0 auto 12px;
+  background-image: url(../images/backgrounds/bg-penghargaan.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 300px;
+  border-radius: 8px;
+  padding: 40px 0;
+ }
+ .list-penghargaan .insurance-details__download-icon img{
+  min-width: 240px;
+  max-height: 368px;
+  object-fit: cover;
+ }
+ .list-penghargaan h3{
+  text-transform: uppercase;
+  font-size: 20px;
+  line-height: normal;
+  font-weight: 700;
+  color: #000;
+ }
+ .list-penghargaan h4{
+  font-size: 16px;
+  color: var(--insur-grey);
+  font-weight: 300;
+  text-transform: uppercase;
+ }
+  
