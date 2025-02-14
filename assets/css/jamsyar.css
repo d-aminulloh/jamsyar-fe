@@ -195,7 +195,11 @@ ul {
 .mt-24{margin-top: 24px;}
 .mt-40{margin-top: 40px;}
 .mt-80{margin-top: 80px;}
+
+.pt-0i{padding-top: 0 !important;}
 .pt-24{padding-top: 24px;}
+
+.pb-60i{padding-bottom: 60px !important;}
 .txt-green-color{
   /* color: #015fc9; */
   color: #9ACF1E;
@@ -3341,7 +3345,8 @@ ul {
 }
 
 .services-one__single:hover .services-one__icon {
-  background-color: var(--insur-base);
+  /* background-color: var(--insur-base); */
+  background-color: #16243d;
 }
 
 .services-one__icon span {
@@ -34642,6 +34647,29 @@ a.prodhov:hover > div h3{
   color: #84b510;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+}
+.vismiss img.bg-vismiss{
+  width: 100%;
+  object-fit: cover;
+  height: 180px;
+  border-radius: 8px;
+  margin: 16px 0 10px;
+}
+.vismiss h3{
+  display: inline-block;
+  position: absolute;
+  margin: 12px 16px;
+}
+.pt-0i div.services-one__container{
+  padding: 0 60px;
+}
+.valcomp{
+  border-top: 1px solid #eee;
+  padding: 50px 0;
+}
+.valcomp h4{
+  font-size: 18px;
+  margin-bottom: 20px;
 }
 
 
