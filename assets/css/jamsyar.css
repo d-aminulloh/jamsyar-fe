@@ -9467,6 +9467,7 @@ ul {
   .sidebar {
     margin-top: 50px;
   }
+  
 }
 .sidebar__single + .sidebar__single {
   margin-top: 30px;
@@ -11962,6 +11963,9 @@ h4.product-details_subtitle{
 @media (max-width: 767px) {
   .error-page-shape-1 {
     display: none;
+  }
+  .pt-0i div.services-one__container, .sec-management {
+    padding: 0 15px !important;
   }
 }
 .error-page__inner {
