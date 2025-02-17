@@ -4213,7 +4213,7 @@ ul {
   transform: perspective(400px) rotateX(0deg) scaleY(1);
   transition-delay: 0.1s;
   transition-timing-function: ease-in-out;
-  transition-duration: 0.7s;
+  transition-duration: 0.3s;
   transition-property: all;
 }
 
@@ -34686,6 +34686,14 @@ a.prodhov:hover > div h3{
 .sec-management h3{
   margin-bottom: 0;
 }
+.sec-management h3.news-details__title,
+.sec-management h4{
+  padding: 0 40px;
+}
+.kepdiv h3.news-details__title,
+.kepdiv img{
+  padding: 0 0;
+}
 .valcomp h4,
 .sec-management h4{
   margin-bottom: 24px;
@@ -34708,6 +34716,9 @@ table.table-descrip tbody tr:last-child{
 table.table-descrip tr{
   border-bottom: 1px solid #aaa;
 }
+.kepdiv table.table-descrip tr{
+  border-bottom: 0;
+}
 table.table-descrip tr th.colA{
   width: 25%;
   vertical-align: top;
@@ -34718,7 +34729,13 @@ table.table-descrip tr th.colB{
 table.table-descrip tr th.colA p.news-details__text-2{
   font-size: 16px;
   padding: 16px 0;
-  
+}
+.kepdiv table.table-descrip tr th.colA p.news-details__text-2,
+.kepdiv table.table-descrip tr th.colB p.news-details__text-2{
+  padding: 4px 0;
+}
+.kepdiv h3{
+  margin-bottom: 28px;
 }
 table.table-descrip tr th.colB p.news-details__text-2,
 table.table-descrip tr th.colB ul{
@@ -34729,6 +34746,11 @@ table.table-descrip tr th.colB ul{
 table.table-descrip tr th.colB ul li{
   font-size: 16px;
   font-weight: normal;
+}
+.kepdiv{
+  border-top: 1px solid #eee;
+  padding: 50px 40px;
+  margin-top: 40px;
 }
 
 
