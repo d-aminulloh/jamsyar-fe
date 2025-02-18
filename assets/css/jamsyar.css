@@ -34756,6 +34756,25 @@ table.table-descrip tr th.colB ul li{
   padding: 50px 40px;
   margin-top: 40px;
 }
+.his-timeline .timeline-content h3{
+  margin-bottom: 12px;
+  line-height: 32px;
+}
+.his-timeline .timeline-content p{
+  margin-bottom: 8px;
+  line-height: 24px;
+}
+.his-timeline .timeline-content ul{
+  padding-left: 15px;
+}
+.his-timeline .timeline-content ul li{
+  line-height: normal;
+  line-height: 24px;
+}
+.his-timeline ul.timeline li.timeline-item{
+  padding-bottom: 40px;
+  display: inline-block;
+}
 
 
 /* ====================================
@@ -34800,6 +34819,37 @@ ICON PRODUCT
 .icon-product-custom{
   background-image: url(../images/icon/icon-product/custom.svg);
 }
+.icon-value-amanah{
+  background-image: url(../images/icon/icon-amanah.svg);
+}
+.icon-value-loyal{
+  background-image: url(../images/icon/icon-loyal.svg);
+}
+.icon-value-kompeten{
+  background-image: url(../images/icon/icon-kompeten.svg);
+}
+.icon-value-adaptif{
+  background-image: url(../images/icon/icon-adaptif.svg);
+}
+.icon-value-harmonis{
+  background-image: url(../images/icon/icon-harmonis.svg);
+}
+.icon-value-kolaboratif{
+  background-image: url(../images/icon/icon-kolaboratif.svg);
+}
+.icon-value-visi{
+  background-image: url(../images/icon/icon-vision.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+.icon-value-misi{
+  background-image: url(../images/icon/icon-mission.svg);
+  width: 60px;
+  height: 60px;
+  display: inline-block;
+}
+
 
 /* White */
 .icon-product-kur_white{
