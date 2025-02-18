@@ -34775,6 +34775,9 @@ table.table-descrip tr th.colB ul li{
   padding-bottom: 40px;
   display: inline-block;
 }
+.his-timeline ul.timeline li.timeline-item:last-child{
+  padding-bottom: 0;
+}
 
 
 /* ====================================
