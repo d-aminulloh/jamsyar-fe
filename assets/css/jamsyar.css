@@ -34778,7 +34778,69 @@ table.table-descrip tr th.colB ul li{
 .his-timeline ul.timeline li.timeline-item:last-child{
   padding-bottom: 0;
 }
-
+.career-page{
+  padding-top: 0;
+}
+.career-page button.comment-form__btn{
+  font-size: 14px;
+  padding: 10px 28px;
+  margin-top: 40px;
+  width: 100%;
+  background-color: transparent;
+  color: #015fc9;
+  border: 1px solid #015fc9;
+}
+.career-page button.comment-form__btn:hover{
+  color: #fff;
+}
+.career-page .services-two__single ul.career-status{
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+.career-page .services-two__single ul.career-status li.career-open,
+.career-detail .news-details__content ul li.career-open{
+  font-weight: 900;
+  color: #9acf1e;
+  background-color: color(srgb 0.6 0.81 0.12 / 0.1);
+  padding: 4px 20px;
+  border-radius: 6px;
+  border: 1px solid #d6e6b1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.career-page .services-two__single ul.career-status li.career-closed,
+.career-detail .news-details__content ul li.career-closed{
+  font-weight: 900;
+  color: #ff0000;
+  background-color: color(srgb 1 0 0 / 0.08);
+  padding: 4px 18px;
+  border-radius: 6px;
+  border: 1px solid #e6b1b1;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+.career-page .services-two__single ul.career-status li p{
+  padding: 6px 0;
+}
+.career-page .services-two__single{
+  text-align: left;
+}
+.career-page .services-two__single:hover {
+  border-bottom: 3px solid #015fc9;
+}
+.career-detail .sidebar ul.list-unstyled li{
+  padding-left: 20px;
+}
+.career-detail .sidebar ul.list-unstyled{
+  margin-bottom: 28px;
+}
+.career-detail .sidebar button.comment-form__btn{
+  font-size: 14px;
+  padding: 12px 48px;
+  margin-left: 20px;
+}
 
 /* ====================================
 ICON PRODUCT
