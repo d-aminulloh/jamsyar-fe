@@ -1118,3 +1118,41 @@
 
 
 })(jQuery);
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const modal = document.getElementById("modal");
+  const closeButton = document.getElementById("closeButton");
+
+  // Tampilkan modal saat halaman dimuat
+  modal.style.display = "flex";
+  document.body.style.overflow = "hidden";
+
+  // Tutup modal jika tombol close diklik
+  closeButton.addEventListener("click", function() {
+      modal.style.display = "none";
+      document.body.style.overflow = "auto";
+  });
+
+  // Tutup modal jika area di luar modal diklik
+  window.addEventListener("click", function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+      }
+  });
+
+  // Inisialisasi Swiper
+  const swiper = new Swiper('.swiper-modal', {
+      loop: true,
+      navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+      },
+      pagination: {
+          el: '.swiper-pagination',
+          clickable: true,
+      },
+  });
+});
+
