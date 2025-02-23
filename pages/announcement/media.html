@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produk | Jamkrindo Syariah</title>
+    <title>Media | Jamkrindo Syariah</title>
     <!-- favicons Icons -->
     <link rel="apple-touch-icon" sizes="180x180" href="../../assets/images/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="../../assets/images/favicons/favicon-32x32.png">
@@ -14,13 +14,11 @@
 
     <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com/">
-
     <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
 
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&amp;display=swap"
         rel="stylesheet">
-
 
     <link rel="stylesheet" href="../../assets/vendors/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="../../assets/vendors/animate/animate.min.css">
@@ -46,6 +44,8 @@
 
     <!-- template styles -->
     <link rel="stylesheet" href="../../assets/css/jamsyar.css">
+    <!-- datatable -->
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
 </head>
 
 <body class="custom-cursor">
@@ -256,8 +256,8 @@
                                                     <div class="col-xl-4 col-lg-4 waw fadeInUp animated">
                                                         <ul>
                                                             <li>
-                                                                <!-- <a href="#">Izin Usaha <span>></span></a>
-                                                                <p>Dasar hukum dan perizinan yang dimiliki PT Jamkrindo Syariah.</p> -->
+                                                                <a href="#">Media Download <span>></span></a>
+                                                                <p>Media download yang dipublikasi oleh PT Jamkrindo Syariah.</p>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -295,12 +295,14 @@
             <div class="container">
                 <div class="page-header__inner">
                     <ul class="thm-breadcrumb list-unstyled">
-                        <li><a href="main.html">Beranda</a></li>
+                        <li><a href="../../main.html">Beranda</a></li>
                         <li><span>/</span></li>
-                        <li>Produk</li>
+                        <li><a href="../../main.html">Pengumuman</a></li>
+                        <li><span>/</span></li>
+                        <li>Media Download</li>
                     </ul>
                     <h2>
-                        <span>Produk</span>
+                        <span>Media Download</span>
                         </br>Jamkrindo Syariah
                     </h2>
                 </div>
@@ -308,170 +310,50 @@
         </section>
         <!--Page Header End-->
 
-        <!--Insurance Page Two Start-->
-        <section class="insurance-page-two product-page-padding">
+        <!--News Sidebar Start-->
+        <section class="news-sidebar">
             <div class="container">
                 <div class="row">
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-kredit-usaha-rakyat_kur.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-kur"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Kredit Usaha Rakyat (KUR)</h3>
-                                <p class="services-two__text">Penjaminan atas pembiayaan yang diberikan oleh Penerima Jaminan (Makful Lahu) kepada Terjamin (Makful ‘Anhu).</p>
-                            </div>
-                        </a>
+                    <div class="col-xl-12 col-lg-12">
+                        <table id="data-table" class="display" style="width:100%">
+                            <thead>
+                                <tr>
+                                    <th>No.</th>
+                                    <th>Nama</th>
+                                    <th>Tahun</th>
+                                    <th>Tanggal Uploaded</th>
+                                    <th>Download</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>1</td>
+                                    <td>Corporate Report 2023</td>
+                                    <td>2023</td>
+                                    <td>25 Juni 2024</td>
+                                    <td><a href="#" class="btn-download">Download</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2</td>
+                                    <td>Laporan TJSL 2023</td>
+                                    <td>2022</td>
+                                    <td>11 Juli 2024</td>
+                                    <td><a href="#" class="btn-download">Download</a></td>
+                                </tr>
+                                <tr>
+                                    <td>3</td>
+                                    <td>Company Profile 2024</td>
+                                    <td>2021</td>
+                                    <td>11 Juli 2024</td>
+                                    <td><a href="#" class="btn-download">Download</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
                     </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-umum.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-umum"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Umum</h3>
-                                <p class="services-two__text">Penjaminan Pembiayaan yang diajukan untuk modal kerja dan/atau investasi.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-sejahtera_flpp.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-flpp"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Sejahtera FLPP</h3>
-                                <p class="services-two__text">Penjaminan pembiayaan dengan dukungan Fasilitas Likuiditas Pembiayaan Perumahan (FLPP).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-supply-chain-financing.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-financing"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Supply Chain Financing</h3>
-                                <p class="services-two__text">Penjaminan atas pembiayaan yang diberikan oleh Penerima Jaminan (Makful Lahu) kepada Terjamin (Makful ‘Anhu).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-multiguna.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-multiguna"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Multiguna</h3>
-                                <p class="services-two__text">Penjaminan atas Pembiayaan yang diberikan oleh Penerima Jaminan (Makful Lahu)</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-mikro.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-mikro"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Mikro</h3>
-                                <p class="services-two__text">Penjaminan Pembiayaan Modal Kerja dan/atau investasi yang diajukan untuk usaha mikro.</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-konstruksi-pengadaan-barang-jasa.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-jasa"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Konstruksi Pengadaan Barang & Jasa</h3>
-                                <p class="services-two__text">Penjaminan atas Pembiayaan Modal Kerja yang diberikan oleh Penerima Jaminan (Makful Lahu)</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kafalah-pembiayaan-distribusi-barang.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-barang"></div>
-                                </div>
-                                <h3 class="services-two__title">Kafalah Pembiayaan Distribusi Barang</h3>
-                                <p class="services-two__text">Penjaminan atas penyaluran barang dari Penerima Jaminan (produsen barang) kepada Terjamin (Makful ‘Anhu).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="kontra-bank-garansi.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-kontra"></div>
-                                </div>
-                                <h3 class="services-two__title">Kontra Bank Garansi</h3>
-                                <p class="services-two__text">Pemberian Jaminan sebagai kontra garansi atas fasilitas Bank Garansi</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="surety-bond.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-surety"></div>
-                                </div>
-                                <h3 class="services-two__title">Surety Bond</h3>
-                                <p class="services-two__text">Pemberian jaminan kepada Obligee (Makful Lahu) atas risiko kegagalan/ wanprestasi Principal (Makful ‘Anhu).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="custom-bond.html" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-custom"></div>
-                                </div>
-                                <h3 class="services-two__title">Custom Bond</h3>
-                                <p class="services-two__text">Jaminan yang diberikan oleh Penjamin (Kafil) atas fasilitas kepabeanan yang diberikan oleh Penerima Jaminan (Makful Lahu).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
-                    <!--Services Two Single Start-->
-                    <div class="col-xl-3 col-lg-4 col-md-6">
-                        <a href="#" class="prodhov">
-                            <div class="services-two__single">
-                                <div class="services-two__icon-box">
-                                    <div class="services-two__icon icon-product-jamsyar icon-product-mysurety"></div>
-                                </div>
-                                <h3 class="services-two__title">My Surety</h3>
-                                <p class="services-two__text">Jaminan yang diberikan oleh Penjamin (Kafil) atas fasilitas kepabeanan yang diberikan oleh Penerima Jaminan (Makful Lahu).</p>
-                            </div>
-                        </a>
-                    </div>
-                    <!--Services Two Single End-->
                 </div>
             </div>
         </section>
-        <!--Insurance Page Two End-->
+        <!--News Sidebar End-->
 
         <!--Site Footer Start-->
         <footer class="site-footer">
@@ -674,8 +556,13 @@
     <script src="../../assets/vendors/circleType/jquery.circleType.js"></script>
     <script src="../../assets/vendors/circleType/jquery.lettering.min.js"></script>
 
-
-
+    <!-- datatable -->
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#data-table').DataTable();
+        });
+    </script>
 
     <!-- template js -->
     <script src="../../assets/js/jamsyar.js"></script>

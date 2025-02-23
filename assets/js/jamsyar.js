@@ -1156,3 +1156,48 @@ document.addEventListener("DOMContentLoaded", function() {
   });
 });
 
+
+// Get the modal
+var modalsk = document.getElementById("modal_sk");
+
+// Get the button that opens the modal
+var btn = document.getElementById("btnsk");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on the button, open the modal
+btn.onclick = function() {
+  modalsk.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modalsk.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modalsk) {
+    modalsk.style.display = "none";
+  }
+}
+
+
+document.addEventListener("DOMContentLoaded", function() {
+  const btn = document.getElementById("btnsk");
+  const tooltip = document.getElementById("tooltip");
+
+  // Menampilkan tooltip saat hover
+  btn.addEventListener("mouseenter", function(event) {
+      tooltip.style.display = "block";
+      tooltip.style.opacity = "1";
+      // tooltip.style.top = (btn.offsetTop - tooltip.offsetHeight - 10) + "px";
+      // tooltip.style.left = (btn.offsetLeft + btn.offsetWidth / 2 - tooltip.offsetWidth / 2) + "px";
+  });
+
+  // Menyembunyikan tooltip saat mouse keluar
+  btn.addEventListener("mouseleave", function() {
+      tooltip.style.display = "none";
+  });
+});
