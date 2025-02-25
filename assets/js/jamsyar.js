@@ -1145,6 +1145,10 @@ document.addEventListener("DOMContentLoaded", function() {
   // Inisialisasi Swiper
   const swiper = new Swiper('.swiper-modal', {
       loop: true,
+      autoplay: {
+        delay: 4000, // Slide setiap 5 detik
+        disableOnInteraction: false, // Autoplay tetap berjalan meski ada interaksi
+    },
       navigation: {
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',

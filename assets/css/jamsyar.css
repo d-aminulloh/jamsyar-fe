@@ -11967,6 +11967,10 @@ h4.product-details_subtitle{
   .pt-0i div.services-one__container, .sec-management {
     padding: 0 15px !important;
   }
+  #data-table_wrapper{overflow: scroll;}
+  .news-details__img img {
+    height: 220px;
+  }
 }
 .error-page__inner {
   position: relative;
@@ -34865,6 +34869,7 @@ span.txt-orange{color: #FF9900;}
   width: 40px;
 }
 
+
 /* ====================================
 ICON PRODUCT
 ==================================== */
@@ -35190,4 +35195,49 @@ MODAL
 }
 .modal-content_sk .section-content_sk{
   padding-bottom: 16px;
+}
+
+
+/* responsive mobile*/
+@media (max-width: 767px) {
+  .sidebar-mobile{
+    display: none;
+  }
+  .list-penghargaan .insurance-details__download-icon img {
+    min-width: 100%;
+  }
+  .list-penghargaan {
+    padding: 0 !important;
+  }
+  .list-penghargaan .insurance-details__download-icon {
+    padding: 0;
+  }
+  img.maknalogo{
+    object-fit: contain;
+  }
+  .sec-management .title-management{
+    padding: 0 5%;
+  }
+  .sec-management .sec-2-management{
+    padding: 0 15%;
+  }
+  .kepdiv {
+    padding: 50px 60px;
+  }
+  .vismiss .col-12{
+    margin-bottom: 20px;
+  }
+  .produk-mobile{
+    margin-bottom: 40px;
+    margin-top: -100px !important;
+    height: 240px;
+  }
+  .produk-mobile h3{
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 16px;
+  }
+  .produk-mobile ul{
+    overflow: scroll;
+    height: 130px;
+  }
 }
