@@ -310,6 +310,79 @@
         </section>
         <!--Page Header End-->
 
+        <!-- start view team detail -->
+        <!-- Trigger Link -->
+        <!-- <a href="#" id="triggerLink_team" class="trigger-link_team">Tampilkan Modal</a> -->
+
+        <!-- Modal Structure -->
+        <div id="modal_team" class="modal_team">
+            <div class="modal-content_team">
+                <span id="closeButton_team" class="close-button_team">&times;</span>
+                <div class="team-details__top">
+                    <div class="row">
+                        <div class="col-xl-4 col-lg-4">
+                            <div class="team-details__top-left">
+                                <div class="team-details__top-img">
+                                    <img src="../../assets/images/profile/management/Edy Utomo.png" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-8 col-lg-8   ">
+                            <div class="team-details__top-right">
+                                <div class="team-details__top-content">
+                                    <p class="team-details__top-title">Komisaris Independen</p>
+                                    <h3 class="team-details__top-name">Edy Utomo</h3>
+                                    <ul class="insurance-details__opportunities-list list-unstyled">
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Lahir di Lamongan, 3 Februari 1964</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Menyelesaikan studi S1 di Universitas Brawijaya dan S2 di Institut Pertanian Bogor</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Tahun 2019-2020 menjabat sebagai Kepala Audit Intern (Bandung) Bank Rakyat Indonesia, dan jabatan yang sama di Kantor Pusat Bank Rakyat Indonesia pada 2016-2019</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Sebelumnya juga pernah menjabat sebagai Kepala Divisi Sentra Operasi Bank Rakyat Indonesia periode 2012-2016.</p>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="icon">
+                                                <span class="fa fa-check"></span>
+                                            </div>
+                                            <div class="text">
+                                                <p>Saat ini sudah lulus Fit & Proper Test dengan Nomor KEP-115/PD.02/2024.</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- end view team detail -->
+
         <!--Team Page Start-->
         <section class="team-page">
             <div class="sec-management">
@@ -319,24 +392,28 @@
                 </div>
                 <div class="row sec-2-management">
                     <!--Team One Single Start-->
-                    <div class="col-xl-3 col-lg-3 col-md-6  wow fadeInUp" data-wow-delay="100ms">
+                    <div class="col-xl-3 col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="100ms">
+                        
                         <div class="team-one__single">
                             <div class="team-one__img">
-                                <div class="team-one__img-box">
-                                    <img src="../../assets/images/profile/management/Edy Utomo.png" alt="">
-                                </div>
+                                <a href="#" id="triggerLink_team" class="trigger-link_team">
+                                    <div class="team-one__img-box">
+                                        <img src="../../assets/images/profile/management/Edy Utomo.png" alt="">
+                                    </div>
+                                </a>
                                 <ul class="list-unstyled team-one__social">
                                     <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
                                 </ul>
                             </div>
                             <div class="team-one__content">
                                 <p class="team-one__sub-title">Komisaris Independen</p>
-                                <h3 class="team-one__name"><a href="team-details.html">Edy Utomo</a></h3>
+                                <h3 class="team-one__name">Edy Utomo</h3>
                                 <ul class="list-unstyled team-one__social-two">
                                     <li><a href="#"><i class="fas fa-share-alt"></i></a></li>
                                 </ul>
                             </div>
                         </div>
+
                     </div>
                     <!--Team One Single End-->
                     <!--Team One Single Start-->
@@ -913,6 +990,34 @@
 
     <!-- template js -->
     <script src="../../assets/js/jamsyar.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+        const modal_team = document.getElementById("modal_team");
+        const closeButton_team = document.getElementById("closeButton_team");
+        const triggerLink_team = document.getElementById("triggerLink_team");
+
+        // Tampilkan modal saat tautan trigger diklik
+        triggerLink_team.addEventListener("click", function(event) {
+            event.preventDefault(); // Mencegah tautan mengarahkan ke URL baru
+            modal_team.style.display = "flex";
+            document.body.style.overflow = "hidden";
+        });
+
+        // Tutup modal jika tombol close diklik
+        closeButton_team.addEventListener("click", function() {
+            modal_team.style.display = "none";
+            document.body.style.overflow = "auto";
+        });
+
+        // Tutup modal jika area di luar modal diklik
+        window.addEventListener("click", function(event) {
+            if (event.target == modal_team) {
+                modal_team.style.display = "none";
+                document.body.style.overflow = "auto";
+            }
+        });
+        });
+    </script>
 </body>
 
 </html>
