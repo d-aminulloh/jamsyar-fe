@@ -34761,8 +34761,8 @@ table.table-descrip tr th.colB ul li{
 }
 .kepdiv{
   border-top: 1px solid #eee;
-  padding: 50px 40px;
-  margin-top: 40px;
+  padding: 30px 40px 50px;
+  margin-top: 10px;
 }
 .his-timeline .timeline-content h3{
   margin-bottom: 12px;
@@ -34872,7 +34872,15 @@ span.txt-orange{color: #FF9900;}
 #data-table th:nth-child(1), #data-table td:nth-child(1) {
   width: 40px;
 }
-
+.team-page .row.seperate-title {
+  --bs-gutter-x: 0px;
+  border-top: 1px solid #eee;
+  padding: 30px 40px 50px;
+  margin-top: 10px;
+}
+.team-page .row.seperate-title h3{
+  padding: 0;
+}
 
 /* ====================================
 ICON PRODUCT
