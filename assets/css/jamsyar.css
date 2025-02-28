@@ -9240,6 +9240,7 @@ ul {
 .news-sideabr__img img {
   width: 100%;
   border-radius: var(--insur-bdr-radius);
+  max-height: 370px;
 }
 
 .news-sideabr__content-box {
