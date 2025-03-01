@@ -11559,7 +11559,7 @@ h4.product-details_subtitle{
 .team-details__top {
   position: relative;
   display: block;
-  padding: 40px 0 40px;
+  padding: 0 0 4px;
 }
 
 .team-details__top-left {
@@ -35267,6 +35267,15 @@ MODAL
 .team-details__top-content ul.list-unstyled li div.icon{
   margin-top: 7px;
 }
+.modal_team .modal-content_team .team-details__top .row .team-details__top-right .team-details__top-content p.team-details__top-title{
+  color: #015fc9;
+}
+.modal_team .modal-content_team .team-details__top .row .team-details__top-right .team-details__top-content p{
+  line-height: 28px;
+}
+.modal_team .modal-content_team .team-details__top .row .team-details__top-right .team-details__top-content h3{
+  margin-bottom: 28px;
+}
 
 
 /* responsive mobile*/
@@ -35312,12 +35321,16 @@ MODAL
     height: 130px;
   }
   .modal-content_team {
-    margin: 200px auto 40px;
+    margin: 0 auto 40px;
     width: 90%;
     border-radius: 12px;
   }
   .team-details__top-content ul.list-unstyled li p{
     font-size: 16px;
     line-height: 20px;
+  }
+  #modal_team {
+    align-items: flex-start;
+    padding-top: 40px;
   }
 }
