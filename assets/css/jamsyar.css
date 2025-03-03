@@ -35284,6 +35284,25 @@ MODAL
   margin-bottom: 28px;
   border-radius: 8px;
 }
+.new-post-footer{
+  padding: 0;
+}
+.new-post-footer li{
+  padding: 0;
+}
+.new-post-footer li .sidebar__post-content h3 a{
+  color: #97a2b7;
+  font-weight: 300;
+  line-height: 22px;
+}
+.new-post-footer.sidebar__post-list li:hover {
+  background-color: unset !important;
+}
+.new-post-footer li .sidebar__post-content h3 a:hover{
+  text-decoration: underline;
+  color: #fff;
+  transition: all 200ms ease-in-out;
+}
 
 
 /* responsive mobile*/
