@@ -2794,6 +2794,7 @@ ul {
 
 .feature-one__single-inner.feature-box-custom {
   padding: 72px 50px 32px;
+  /* padding: 72px 24px 32px; */
   text-align: center;
 }
 
@@ -34887,7 +34888,7 @@ span.txt-orange{color: #FF9900;}
 ICON PRODUCT
 ==================================== */
 .icon-product-jamsyar{
-  background-size: inherit;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -34997,37 +34998,37 @@ ICON PRODUCT
 
 /* grey */
 .icon-product-kur_grey{
-  background-image: url(../images/icon/icon-product/kur-grey.svg);
+  background-image: url(../images/icon/icon-product/kur.svg);
 }
 .icon-product-umum_grey{
-  background-image: url(../images/icon/icon-product/umum-grey.svg);
+  background-image: url(../images/icon/icon-product/umum.svg);
 }
 .icon-product-flpp_grey{
-  background-image: url(../images/icon/icon-product/flpp-grey.svg);
+  background-image: url(../images/icon/icon-product/flpp.svg);
 }
 .icon-product-financing_grey{
-  background-image: url(../images/icon/icon-product/financing-grey.svg);
+  background-image: url(../images/icon/icon-product/financing.svg);
 }
 .icon-product-multiguna_grey{
-  background-image: url(../images/icon/icon-product/multiguna-grey.svg);
+  background-image: url(../images/icon/icon-product/multiguna.svg);
 }
 .icon-product-mikro_grey{
-  background-image: url(../images/icon/icon-product/mikro-grey.svg);
+  background-image: url(../images/icon/icon-product/mikro.svg);
 }
 .icon-product-jasa_grey{
-  background-image: url(../images/icon/icon-product/jasa-grey.svg);
+  background-image: url(../images/icon/icon-product/jasa.svg);
 }
 .icon-product-barang_grey{
-  background-image: url(../images/icon/icon-product/barang-grey.svg);
+  background-image: url(../images/icon/icon-product/barang.svg);
 }
 .icon-product-kontra_grey{
-  background-image: url(../images/icon/icon-product/garansi-grey.svg);
+  background-image: url(../images/icon/icon-product/garansi.svg);
 }
 .icon-product-surety_grey{
-  background-image: url(../images/icon/icon-product/surety-grey.svg);
+  background-image: url(../images/icon/icon-product/surety.svg);
 }
 .icon-product-custom_grey{
-  background-image: url(../images/icon/icon-product/custom-grey.svg);
+  background-image: url(../images/icon/icon-product/custom.svg);
 }
 
 
