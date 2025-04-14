@@ -35366,3 +35366,13 @@ MODAL
     height: 220px;
   }
 }
+
+.covnus{
+  margin-bottom: 60px;
+  margin-top: -60px;
+}
+.covnus img{
+  width: 100%;
+  height: auto;
+  border-radius: var(--insur-bdr-radius);
+}
