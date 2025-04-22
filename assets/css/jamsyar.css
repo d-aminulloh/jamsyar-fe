@@ -3630,12 +3630,12 @@ ul {
 .get-insurance {
   position: relative;
   display: block;
-  padding: 120px 0px 130px;
+  padding: 0px 0px 130px;
   background-color: var(--insur-white);
   z-index: 1;
 }
 
-.get-insurance:before {
+/* .get-insurance:before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -3646,7 +3646,7 @@ ul {
   background-image: -webkit-linear-gradient(90deg, rgb(242, 245, 249) 0%, rgba(242, 245, 249, 0) 100%);
   background-image: -ms-linear-gradient(90deg, rgb(242, 245, 249) 0%, rgba(242, 245, 249, 0) 100%);
   z-index: -1;
-}
+} */
 
 .get-insurance-bg {
   position: absolute;
@@ -4160,7 +4160,7 @@ ul {
   z-index: 1;
 }
 
-.team-one__img:after {
+/* .team-one__img:after {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4176,7 +4176,7 @@ ul {
 
 .team-one__single:hover .team-one__img:after {
   border: 2px dashed var(--insur-primary);
-}
+} */
 
 .team-one__img-box {
   position: relative;
@@ -4186,7 +4186,7 @@ ul {
   z-index: 1;
 }
 
-.team-one__img-box:before {
+/* .team-one__img-box:before {
   position: absolute;
   top: 0;
   bottom: 0;
@@ -4206,7 +4206,7 @@ ul {
   transition-duration: 0.5s;
   transition-property: all;
   z-index: 1;
-}
+} */
 
 .team-one__single:hover .team-one__img-box:before {
   -webkit-transform: perspective(400px) rotateX(0deg) scaleY(1);
@@ -4280,6 +4280,7 @@ ul {
   position: relative;
   display: block;
   padding-top: 28px;
+  text-align: center;
 }
 
 .team-one__sub-title {
@@ -34681,10 +34682,11 @@ a.prodhov:hover > div h3{
   position: absolute;
   margin: 12px 16px;
 }
-.pt-0i div.services-one__container,
+/* .pt-0i div.services-one__container,
 .sec-management{
   padding: 0 60px;
-}
+} */
+
 .sec-2-management{
   margin-top: 40px;
 }
@@ -35132,13 +35134,14 @@ MODAL
   z-index: 998;
   bottom: 20px;
   right: 20px;
-  background-image: url(../images/icon/icon-document.svg);
+  background-image: url(../images/icon/icon-scan.svg);
   background-repeat: no-repeat;
   background-size: contain;
-  width: 45px;
+  width: 134px;
   height: 45px;
   border-radius: 100px;
   border: 0;
+  background-color: transparent;
 }
 
 /* Gaya untuk tombol */
@@ -35375,4 +35378,15 @@ MODAL
   width: 100%;
   height: auto;
   border-radius: var(--insur-bdr-radius);
+}
+
+section.new-manajemen .title-management h3{
+  padding: 0px;
+}
+section.new-manajemen .sec-2-management .wow {
+  padding-right: 20px;
+  padding-left: 20px;
+}
+section.new-manajemen .sec-2-management {
+  justify-content: center;
 }
